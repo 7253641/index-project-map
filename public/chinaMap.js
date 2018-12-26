@@ -8,7 +8,7 @@
                 container: 'body',  // 放置地图的容器
                 legend: '', // tooltip中可以加数据注释
                 width: 400, // 宽
-                height: 320, // 高
+                height: 250, // 高
                 scale: 300, // 缩放
                 center: [107, 38], //经纬度中心
                 bgColor: "#cbd4dd", // 填充背景色
@@ -22,7 +22,7 @@
                 southSea: { // 南海
                     borderColor: "#999", // 南海边框颜色
                     x: 280, // 南海部分的X轴距离
-                    y: 210 // 南海部分的Y轴距离
+                    y: 140 // 南海部分的Y轴距离
                 },
                 gradient: { // 渐变
                     startColor: "#aadcff", // 渐变开始颜色
@@ -31,7 +31,7 @@
                     fontSize: "22px", // 渐变文字大小
                     textAnchor: "middle", // 渐变文字位置
                     x: 30, // 渐变色块X轴位置
-                    y: 300, // 渐变色块Y轴位置
+                    y: 230, // 渐变色块Y轴位置
                     width: 140, // 渐变色块宽
                     height: 10 // 渐变色块高
                 },
@@ -42,7 +42,7 @@
                 provinceData: [], // 省辖市的数据
                 provinceMapUrl: 'geoProvince/', // 省级地图的根路径
                 provinceWidth: 400,  // 省级地图的宽
-                provinceHeight: 320,  // 省级地图的高
+                provinceHeight: 250,  // 省级地图的高
                 provinceScale: 300 // 缩放
             };
 
@@ -281,127 +281,127 @@
                 {
                     case '北京':
                         temp.provinceMap += 'beijing.geojson';
-                        temp.scale = 4000;
+                        temp.scale = 5000;
                         temp.center = [116, 40];
                         break;
                     case '天津':
                         temp.provinceMap += 'tianjin.geojson';
-                        temp.scale = 7000;
+                        temp.scale = 5000;
                         temp.center = [117, 39];
                         break;
                     case '河北':
                         temp.provinceMap += 'hebei.geojson';
-                        temp.scale = 2500;
+                        temp.scale = 1500;
                         temp.center = [116, 39];
                         break;
                     case '山西':
                         temp.provinceMap += 'shanxi.geojson';
-                        temp.scale = 2500;
+                        temp.scale = 1500;
                         temp.center = [112, 37];
                         break;
                     case '内蒙古':
                         temp.provinceMap += 'neimenggu.geojson';
-                        temp.scale = 1000;
+                        temp.scale = 500;
                         temp.center = [114, 46];
                         break;
                     case '辽宁':
                         temp.provinceMap += 'liaoning.geojson';
-                        temp.scale = 3000;
+                        temp.scale = 2000;
                         temp.center = [122, 41];
                         break;
                     case '吉林':
                         temp.provinceMap += 'jilin.geojson';
-                        temp.scale = 2500;
+                        temp.scale = 1500;
                         temp.center = [126, 44];
                         break;
                     case '黑龙江':
                         temp.provinceMap += 'heilongjiang.geojson';
-                        temp.scale = 1500;
+                        temp.scale = 1000;
                         temp.center = [128, 49];
                         break;
                     case '上海':
                         temp.provinceMap += 'shanghai.geojson';
-                        temp.scale = 14000;
+                        temp.scale = 7000;
                         temp.center = [121.3, 31.2];
                         break;
                     case '江苏':
                         temp.provinceMap += 'jiangsu.geojson';
-                        temp.scale =4000;
+                        temp.scale =2000;
                         temp.center = [119, 33];
                         break;
                     case '浙江':
                         temp.provinceMap += 'zhejiang.geojson';
-                        temp.scale = 4000;
+                        temp.scale = 2000;
                         temp.center = [120, 29];
                         break;
                     case '安徽':
                         temp.provinceMap += 'anhui.geojson';
-                        temp.scale = 4000;
+                        temp.scale = 2000;
                         temp.center = [117, 32];
                         break;
                     case '福建':
                         temp.provinceMap += 'fujian.geojson';
-                        temp.scale = 4000;
+                        temp.scale = 2000;
                         temp.center = [118, 26];
                         break;
                     case '江西':
                         temp.provinceMap += 'jiangxi.geojson';
-                        temp.scale = 3500;
+                        temp.scale = 2000;
                         temp.center = [115, 27.5];
                         break;
                     case '山东':
                         temp.provinceMap += 'shandong.geojson';
-                        temp.scale = 4000;
+                        temp.scale = 2000;
                         temp.center = [118.5, 36.5];
                         break;
                     case '河南':
                         temp.provinceMap += 'henan.geojson';
-                        temp.scale = 3500;
+                        temp.scale = 2000;
                         temp.center = [113.5, 34];
                         break;
                     case '湖北':
                         temp.provinceMap += 'hubei.geojson';
-                        temp.scale = 4000;
+                        temp.scale = 2000;
                         temp.center = [112, 31];
                         break;
                     case '湖南':
                         temp.provinceMap += 'hunan.geojson';
-                        temp.scale = 3500;
+                        temp.scale = 2000;
                         temp.center = [111, 27.5];
                         break;
                     case '广东':
                         temp.provinceMap += 'guangdong.geojson';
-                        temp.scale = 3500;
+                        temp.scale = 2000;
                         temp.center = [113, 23];
                         break;
                     case '广西':
                         temp.provinceMap += 'guangxi.geojson';
-                        temp.scale = 3500;
+                        temp.scale = 2000;
                         temp.center = [108, 23.5];
                         break;
                     case '海南':
                         temp.provinceMap += 'heinan.geojson';
-                        temp.scale = 9000;
+                        temp.scale = 4000;
                         temp.center = [110, 19.2];
                         break;
                     case '重庆':
                         temp.provinceMap += 'chongqing.geojson';
-                        temp.scale = 5000;
+                        temp.scale = 3000;
                         temp.center = [108, 30.2];
                         break;
                     case '四川':
                         temp.provinceMap += 'sichuan.geojson';
-                        temp.scale = 2500;
+                        temp.scale = 1000;
                         temp.center = [103, 30.2];
                         break;
                     case '贵州':
                         temp.provinceMap += 'guizhou.geojson';
-                        temp.scale = 4000;
+                        temp.scale = 2000;
                         temp.center = [106.5, 27];
                         break;
                     case '云南':
                         temp.provinceMap += 'yunnan.geojson';
-                        temp.scale = 2500;
+                        temp.scale = 1500;
                         temp.center = [101, 25];
                         break;
                     case '西藏':
@@ -411,42 +411,42 @@
                         break;
                     case '陕西':
                         temp.provinceMap += 'shaanxi.geojson';
-                        temp.scale = 2500;
+                        temp.scale = 1500;
                         temp.center = [108, 35.6];
                         break;
                     case '甘肃':
                         temp.provinceMap += 'gansu.geojson';
-                        temp.scale = 1800;
+                        temp.scale = 1000;
                         temp.center = [100, 37.7];
                         break;
                     case '青海':
                         temp.provinceMap += 'qinghai.geojson';
-                        temp.scale = 2200;
+                        temp.scale = 1000;
                         temp.center = [96, 35.5];
                         break;
                     case '宁夏':
                         temp.provinceMap += 'ningxia.geojson';
-                        temp.scale = 4500;
+                        temp.scale = 2500;
                         temp.center = [106, 37.3];
                         break;
                     case '新疆':
                         temp.provinceMap += 'xinjiang.geojson';
-                        temp.scale = 1200;
+                        temp.scale = 600;
                         temp.center = [85, 42];
                         break;
                     case '台湾':
                         temp.provinceMap += 'taiwan.geojson';
-                        temp.scale = 6000;
+                        temp.scale = 3000;
                         temp.center = [120, 23.5];
                         break;
                     case '香港':
                         temp.provinceMap += 'hongkong.geojson';
-                        temp.scale = 47000;
+                        temp.scale = 20000;
                         temp.center = [114.1, 22.35];
                         break;
                     case '澳门':
                         temp.provinceMap += 'macao.geojson';
-                        temp.scale = 177000;
+                        temp.scale = 80000;
                         temp.center = [113.55, 22.16];
                         break;
                 }
