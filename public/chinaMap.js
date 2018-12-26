@@ -7,8 +7,8 @@
                 data: '', // 展示数据
                 container: 'body',  // 放置地图的容器
                 legend: '', // tooltip中可以加数据注释
-                width: 700, // 宽
-                height: 450, // 高
+                width: 400, // 宽
+                height: 320, // 高
                 scale: 300, // 缩放
                 center: [107, 38], //经纬度中心
                 bgColor: "#cbd4dd", // 填充背景色
@@ -21,8 +21,8 @@
                 },
                 southSea: { // 南海
                     borderColor: "#999", // 南海边框颜色
-                    x: 420, // 南海部分的X轴距离
-                    y: 310 // 南海部分的Y轴距离
+                    x: 280, // 南海部分的X轴距离
+                    y: 210 // 南海部分的Y轴距离
                 },
                 gradient: { // 渐变
                     startColor: "#aadcff", // 渐变开始颜色
@@ -30,8 +30,8 @@
                     textColor: "#666", // 渐变文字颜色
                     fontSize: "22px", // 渐变文字大小
                     textAnchor: "middle", // 渐变文字位置
-                    x: 200, // 渐变色块X轴位置
-                    y: 350, // 渐变色块Y轴位置
+                    x: 30, // 渐变色块X轴位置
+                    y: 300, // 渐变色块Y轴位置
                     width: 140, // 渐变色块宽
                     height: 10 // 渐变色块高
                 },
@@ -41,8 +41,8 @@
                 isShowProvince: false,  // 是否显示省级详细地图
                 provinceData: [], // 省辖市的数据
                 provinceMapUrl: 'geoProvince/', // 省级地图的根路径
-                provinceWidth: 700,  // 省级地图的宽
-                provinceHeight: 450,  // 省级地图的高
+                provinceWidth: 400,  // 省级地图的宽
+                provinceHeight: 320,  // 省级地图的高
                 provinceScale: 300 // 缩放
             };
 
