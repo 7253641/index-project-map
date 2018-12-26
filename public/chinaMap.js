@@ -21,7 +21,7 @@
                 },
                 southSea: { // 南海
                     borderColor: "#999", // 南海边框颜色
-                    x: 520, // 南海部分的X轴距离
+                    x: 420, // 南海部分的X轴距离
                     y: 310 // 南海部分的Y轴距离
                 },
                 gradient: { // 渐变
@@ -30,10 +30,10 @@
                     textColor: "#666", // 渐变文字颜色
                     fontSize: "22px", // 渐变文字大小
                     textAnchor: "middle", // 渐变文字位置
-                    x: 30, // 渐变色块X轴位置
-                    y: 390, // 渐变色块Y轴位置
+                    x: 200, // 渐变色块X轴位置
+                    y: 350, // 渐变色块Y轴位置
                     width: 140, // 渐变色块宽
-                    height: 20 // 渐变色块高
+                    height: 10 // 渐变色块高
                 },
                 isShowLinearGradient: true, // 是否显示省级渐变图例
                 isShowSouthSea: false,  // 是否显示南海
@@ -42,7 +42,8 @@
                 provinceData: [], // 省辖市的数据
                 provinceMapUrl: 'geoProvince/', // 省级地图的根路径
                 provinceWidth: 700,  // 省级地图的宽
-                provinceHeight: 450  // 省级地图的高
+                provinceHeight: 450,  // 省级地图的高
+                provinceScale: 300 // 缩放
             };
 
             this.conf = this._extends(defaultOpt, opt);
@@ -280,7 +281,7 @@
                 {
                     case '北京':
                         temp.provinceMap += 'beijing.geojson';
-                        temp.scale = 7000;
+                        temp.scale = 4000;
                         temp.center = [116, 40];
                         break;
                     case '天津':
