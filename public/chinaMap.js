@@ -28,12 +28,12 @@
                     startColor: "#aadcff", // 渐变开始颜色
                     endColor: "#0050a2", // 渐变结束颜色
                     textColor: "#666", // 渐变文字颜色
-                    fontSize: "22px", // 渐变文字大小
+                    fontSize: "12px", // 渐变文字大小
                     textAnchor: "middle", // 渐变文字位置
                     x: 30, // 渐变色块X轴位置
-                    y: 230, // 渐变色块Y轴位置
+                    y: 240, // 渐变色块Y轴位置
                     width: 140, // 渐变色块宽
-                    height: 10 // 渐变色块高
+                    height: 5 // 渐变色块高
                 },
                 isShowLinearGradient: true, // 是否显示省级渐变图例
                 isShowSouthSea: false,  // 是否显示南海
@@ -159,11 +159,12 @@
                                 }
                                 new ChinaMap(opt);
                             } else {
+                              //点击打开指数网站窗口
                               var curName = d.properties.name;
                               for (var j = 0; j < opts.data.length; j++) {
                                 if (opts.data[j].name == curName) {
                                   for (var k = 0; k < opts.data[j].indexURL.length; k++) {
-                                    window.open(opts.data[j].indexURL[k]);
+                                    // window.open(opts.data[j].indexURL[k]);
                                   }
                                 }
                             }
