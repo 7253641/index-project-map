@@ -7,8 +7,8 @@
                 data: '', // 展示数据
                 container: 'body',  // 放置地图的容器
                 legend: '', // tooltip中可以加数据注释
-                width: 700, // 宽
-                height: 450, // 高
+                width: 560, // 宽
+                height: 360, // 高
                 scale: 580, // 缩放
                 center: [107, 38], //经纬度中心
                 bgColor: "#cbd4dd", // 填充背景色
@@ -41,8 +41,8 @@
                 isShowProvince: false,  // 是否显示省级详细地图
                 provinceData: [], // 省辖市的数据
                 provinceMapUrl: 'geoProvince/', // 省级地图的根路径
-                provinceWidth: 700,  // 省级地图的宽
-                provinceHeight: 450  // 省级地图的高
+                provinceWidth: 560,  // 省级地图的宽
+                provinceHeight: 360  // 省级地图的高
             };
 
             this.conf = this._extends(defaultOpt, opt);
