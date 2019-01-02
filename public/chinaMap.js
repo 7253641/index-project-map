@@ -267,8 +267,6 @@
                     }
                     if (opts.isShowProvince) {
                          var curProvinceInfo = that.matchProvinceName('浙江');
-
-                      // if(opts.isShowProvince && opts.provinceData){
                          var opt = {
                               data: opts.provinceData,
                               container: '.provinceMap',
