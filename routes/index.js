@@ -8,7 +8,6 @@ router.get('/', function(req, res, next) {
 
 router.get('/users', function(req, res, next) {
   // res.send('respond with a resource user');
-    // res.send('respond with a resource user');
   res.render('users', { title: 'Express' });
 });
 
