@@ -9,7 +9,7 @@
                 legend: '', // tooltip中可以加数据注释
                 width: 260, // 宽
                 height: 160, // 高
-                scale: 250, // 缩放
+                scale: 200, // 缩放
                 center: [107, 38], //经纬度中心
                 bgColor: "#cbd4dd", // 填充背景色
                 borderColor: "#fff", // 填充边框色
@@ -32,8 +32,8 @@
                     textAnchor: "middle", // 渐变文字位置
                     x: 10, // 渐变色块X轴位置
                     y: 140, // 渐变色块Y轴位置
-                    width: 80, // 渐变色块宽
-                    height: 3// 渐变色块高
+                    width: 140, // 渐变色块宽
+                    height: 5// 渐变色块高
                 },
                 isShowLinearGradient: true, // 是否显示省级渐变图例
                 isShowSouthSea: false,  // 是否显示南海
