@@ -7,8 +7,8 @@
                 data: '', // 展示数据
                 container: 'body',  // 放置地图的容器
                 legend: '', // tooltip中可以加数据注释
-                width: 250, // 宽
-                height: 150, // 高
+                width: 260, // 宽
+                height: 160, // 高
                 scale: 200, // 缩放
                 center: [107, 38], //经纬度中心
                 bgColor: "#cbd4dd", // 填充背景色
