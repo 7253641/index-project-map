@@ -30,8 +30,8 @@
                     textColor: "#666", // 渐变文字颜色
                     fontSize: "12px", // 渐变文字大小
                     textAnchor: "middle", // 渐变文字位置
-                    x: 30, // 渐变色块X轴位置
-                    y: 160, // 渐变色块Y轴位置
+                    x: 10, // 渐变色块X轴位置
+                    y: 140, // 渐变色块Y轴位置
                     width: 140, // 渐变色块宽
                     height: 5 // 渐变色块高
                 },
@@ -43,7 +43,7 @@
                 provinceMapUrl: 'geoProvince/', // 省级地图的根路径
                 provinceWidth: 250,  // 省级地图的宽
                 provinceHeight: 150,  // 省级地图的高
-                provinceScale: -10 // 缩放
+                provinceScale: 1 // 缩放
             };
 
             this.conf = this._extends(defaultOpt, opt);
