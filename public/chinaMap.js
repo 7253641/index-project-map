@@ -31,7 +31,7 @@
                     fontSize: "12px", // 渐变文字大小
                     textAnchor: "middle", // 渐变文字位置
                     x: 10, // 渐变色块X轴位置
-                    y: 140, // 渐变色块Y轴位置
+                    y: 160, // 渐变色块Y轴位置
                     width: 140, // 渐变色块宽
                     height: 5// 渐变色块高
                 },
@@ -295,7 +295,7 @@
                 {
                     case '北京':
                         temp.provinceMap += 'beijing.geojson';
-                        temp.scale = 2500;
+                        temp.scale = 3000;
                         temp.center = [116, 40];
                         break;
                     case '天津':
@@ -340,12 +340,12 @@
                         break;
                     case '江苏':
                         temp.provinceMap += 'jiangsu.geojson';
-                        temp.scale =1000;
+                        temp.scale =1500;
                         temp.center = [119, 33];
                         break;
                     case '浙江':
                         temp.provinceMap += 'zhejiang.geojson';
-                        temp.scale = 1000;
+                        temp.scale = 1500;
                         temp.center = [120, 29];
                         break;
                     case '安徽':
@@ -355,7 +355,7 @@
                         break;
                     case '福建':
                         temp.provinceMap += 'fujian.geojson';
-                        temp.scale = 1000;
+                        temp.scale = 1500;
                         temp.center = [118, 26];
                         break;
                     case '江西':
@@ -365,7 +365,7 @@
                         break;
                     case '山东':
                         temp.provinceMap += 'shandong.geojson';
-                        temp.scale = 1000;
+                        temp.scale = 1500;
                         temp.center = [118.5, 36.5];
                         break;
                     case '河南':
@@ -405,7 +405,7 @@
                         break;
                     case '四川':
                         temp.provinceMap += 'sichuan.geojson';
-                        temp.scale = 500;
+                        temp.scale = 1000;
                         temp.center = [103, 30.2];
                         break;
                     case '贵州':
