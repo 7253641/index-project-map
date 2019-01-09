@@ -43,7 +43,7 @@
                 provinceMapUrl: 'geoProvince/', // 省级地图的根路径
                 provinceWidth: 250,  // 省级地图的宽
                 provinceHeight: 180,  // 省级地图的高
-                provinceScale: 120 // 缩放
+                provinceScale: 100 // 缩放
             };
 
             this.conf = this._extends(defaultOpt, opt);
