@@ -22,7 +22,7 @@
                 southSea: { // 南海
                     borderColor: "#999", // 南海边框颜色
                     x: 180, // 南海部分的X轴距离
-                    y: 140 // 南海部分的Y轴距离
+                    y: 80 // 南海部分的Y轴距离
                 },
                 gradient: { // 渐变
                     startColor: "#aadcff", // 渐变开始颜色
@@ -42,8 +42,8 @@
                 provinceData: [], // 省辖市的数据
                 provinceMapUrl: 'geoProvince/', // 省级地图的根路径
                 provinceWidth: 250,  // 省级地图的宽
-                provinceHeight: 180,  // 省级地图的高
-                provinceScale: 80 // 缩放
+                provinceHeight: 160,  // 省级地图的高
+                provinceScale: 60 // 缩放
             };
 
             this.conf = this._extends(defaultOpt, opt);
