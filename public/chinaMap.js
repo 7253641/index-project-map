@@ -42,8 +42,8 @@
                 provinceData: [], // 省辖市的数据
                 provinceMapUrl: 'geoProvince/', // 省级地图的根路径
                 provinceWidth: 250,  // 省级地图的宽
-                provinceHeight: 150,  // 省级地图的高
-                provinceScale: 150 // 缩放
+                provinceHeight: 180,  // 省级地图的高
+                provinceScale: 120 // 缩放
             };
 
             this.conf = this._extends(defaultOpt, opt);
