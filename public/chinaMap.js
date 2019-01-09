@@ -7,7 +7,7 @@
                 data: '', // 展示数据
                 container: 'body',  // 放置地图的容器
                 legend: '', // tooltip中可以加数据注释
-                width: 300, // 宽
+                width: 250, // 宽
                 height: 160, // 高
                 scale: 200, // 缩放
                 center: [107, 38], //经纬度中心
@@ -21,7 +21,7 @@
                 },
                 southSea: { // 南海
                     borderColor: "#999", // 南海边框颜色
-                    x: 280, // 南海部分的X轴距离
+                    x: 180, // 南海部分的X轴距离
                     y: 140 // 南海部分的Y轴距离
                 },
                 gradient: { // 渐变
