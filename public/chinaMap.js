@@ -9,7 +9,7 @@
                 legend: '', // tooltip中可以加数据注释
                 width: 400, // 宽
                 height: 250, // 高
-                scale: 300, // 缩放
+                scale: 250, // 缩放
                 center: [107, 38], //经纬度中心
                 bgColor: "#cbd4dd", // 填充背景色
                 borderColor: "#fff", // 填充边框色
