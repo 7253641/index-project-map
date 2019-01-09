@@ -41,8 +41,8 @@
                 isShowProvince: false,  // 是否显示省级详细地图
                 provinceData: [], // 省辖市的数据
                 provinceMapUrl: 'geoProvince/', // 省级地图的根路径
-                provinceWidth: 300,  // 省级地图的宽
-                provinceHeight: 200,  // 省级地图的高
+                provinceWidth: 250,  // 省级地图的宽
+                provinceHeight: 150,  // 省级地图的高
                 provinceScale: 150 // 缩放
             };
 
